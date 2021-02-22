@@ -15,5 +15,5 @@ variable "secret_key" {
 
 variable "my_string" {
   type = string
-  default = "This is my string"
+  default = "This is my string variable"
 }
