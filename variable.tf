@@ -12,3 +12,8 @@ variable "secret_key" {
   type        = string
   description = "This is the aws user secret"
 }
+
+variable "my_string" {
+  type = string
+  default = "This is my string"
+}
